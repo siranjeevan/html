@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('images/anime\ woeld1.jpg');
+    background-repeat: no-repeat;
+    color:whitesmoke;
+    padding: 20em;
+    font-style: italic;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+}

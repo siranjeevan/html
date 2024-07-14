@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(/image/images/no1.jpg);
+          
+
+        }
+
+        p,
+        h1,
+        h3 {
+            text-align: center;
+        }
+
+        label {
+            width: 1000px;
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+    <p> <img src="/image/images/Picsart_24-06-19_23-32-19-777.png" width="150" height="140" ></p>
+
+    <h1>Job Application Form </h1>
+    <h3>Please Fill Out From Below To Submit Your Job Application</h3>
+    <hr>
+    <fieldset>
+        <legend>personal</legend>
+        <label for="fname">Name*:</label>
+        <input type="text" id="fname" size="20" placeholder="first name"> <input type="text" id="fname" size="20"
+            placeholder="last name">
+        <br>
+        <br>
+        <label for="email">E-mail*:</label>
+        <input type="email" id="email" size="20" placeholder="smartjeevith2k@gmail.com">
+        <br>
+        <br>
+        <label for="number">Mobile-Number*:</label>
+        <input type="number" id="number" pattern="[0-9]{12}" placeholder="910000000000" size="20">
+        <br>
+        <br>
+        <label for="date">Date Of Birth*:</label>
+        <input type="date" id="date" size="20">
+        <br>
+        <br>
+        Gender:<br>
+          <input type="radio" id="male" name="jeevith" value="male">
+          <label for="male">MALE</label><br>
+          <input type="radio" id="female" name="jeevith" value="Female">
+          <label for="female">FEMALE</label><br>
+          <input type="radio" id="other" name="jeevith" value="other">
+          <label for="other">OTHER</label>
+        <br>
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>company</legend>
+        <label for="job">job:</label>
+        <select id="job" name="job">
+            <option value="empolyee">Employee</option>
+            <option value="manager">Manager</option>
+            <option value="cleaner">Cleaner</option>
+            <option value="co">Co</option>
+        </select>
+        <br>
+        <br>
+        <label for="text">Cover Letter</label>
+        <textarea name="text" id="text" rows="7" cols="150"></textarea>
+        <br>
+        <br>
+        <label for="file">Upload Your Image:</label><br>
+        <input type="file" id="file" size="20">
+    </fieldset>
+    <label for="submit"></label>
+    <input type="submit" id="submit" style="float:right;">
+</form>
+<audio>
+    <source src="jee.ogg" type="audio/ogg">
+    <source src="jee.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+  <audio controls>
+    <source src="/media/jee.mp3" type="audio/ogg">
+    <source src="/media/jee.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+</body>
+
+</html>
