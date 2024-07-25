@@ -1,20 +1,46 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+header h1{
+    color: rgb(31, 23, 30);
+    margin-left: 5rem;
+    background-color: white;
 }
-.header{
-    background-color:rgb(7, 59, 160);
-    padding: 3em;
-    text-align: center;
+nav{
+    background-color: rgb(255, 255, 255);
 }
-nav ul {
-    list-style: none;
-    text-align: right;
+.images img{
+ 
+    width:30%;
+    height: auto;
+    border-radius: 50%;
+    float:right;
+    
 }
- nav ul li a{
-    color:black
+.images{
+    margin-right: 50px;
 }
-p{
-    background: url('images/HD-wallpaper-bcci-logo-cricket-india-symbols.jpg') ;
+nav {
+margin: 100px;
+}
+nav h5{
+    color: rgba(128, 128, 128, 0.774);
+    
+}
+nav h1{
+    color: rgb(102, 97, 97);
+}
+nav p{
+    color: rgba(128, 128, 128, 0.774);
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color:gray; /* Default color */
+    font-size: 2rem; /* Size of the icons */
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Change color on hover */
 }
