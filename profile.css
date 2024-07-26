@@ -1,38 +1,58 @@
-header h1{
+body{
+padding: 3%;
+}
+header h1 {
     color: rgb(31, 23, 30);
-    margin-left: 5rem;
+    margin-left: 3rem;
     background-color: white;
 }
-nav{
-    background-color: rgb(255, 255, 255);
+
+header {
+    background-color: white;
+    color: white;
+    padding: 1rem 0;
 }
-.images img{
- 
-    width:30%;
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    margin-top: -5%;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    border-top: solid black;
+    border-bottom: solid black;
+    
+} 
+main{
+    margin: 100px;
+}
+.images img {
+
+    width: 30%;
     height: auto;
     border-radius: 50%;
-    float:right;
+    float: right;
     margin-bottom: 8%;
 }
-.myImg{
-    margin-top:-15%;
+
+.myImg {
+    margin-top: -15%;
 }
-.images{
+
+.images {
     margin-right: 50px;
 }
-nav {
-margin: 100px;
-}
-nav h5{
-    color: rgba(128, 128, 128, 0.774);
-    
-}
-nav h1{
-    color: rgb(102, 97, 97);
-}
-nav p{
-    color: rgba(128, 128, 128, 0.774);
-}
+
 .social-icons {
     display: flex;
     gap: 10px;
@@ -40,13 +60,17 @@ nav p{
 
 .social-icons a {
     text-decoration: none;
-    color:gray; /* Default color */
-    font-size: 2rem; /* Size of the icons */
+    color: gray;
+    /* Default color */
+    font-size: 2rem;
+    /* Size of the icons */
 }
 
 .social-icons a:hover {
-    color: #0077b5; /* Change color on hover */
+    color: #0077b5;
+    /* Change color on hover */
 }
-.hero p{
+
+.hero p {
     text-align: justify;
 }
