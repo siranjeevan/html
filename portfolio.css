@@ -1,5 +1,7 @@
 body {
     margin: 3%;
+    background-color: black;
+    color: white;
 }
 
 span {
@@ -24,6 +26,7 @@ nav ul li a {
     text-decoration: none;
 
 }
+
 .images img {
     width: 30%;
     height: auto;
@@ -40,14 +43,16 @@ nav ul li a {
     margin-right: 50px;
 }
 
-main h4  {
+main h4 {
     padding: 10%;
     font-size: 18px;
 }
-main h1{
+
+main h1 {
     margin-top: -21%;
     padding: 10%;
 }
+
 .social-icons {
     display: flex;
     gap: 10px;
@@ -57,11 +62,36 @@ main h1{
 
 .social-icons a {
     text-decoration: none;
-    color:blue;  
+    color: blue;
     font-size: 2rem;
-    
+
 }
 
 .social-icons a:hover {
-    color:yellow;
+    color: yellow;
+}
+
+#page2 {
+    margin-top: 22%;
+}
+
+#page2 .images img {
+    float: left;
+    margin-top: 18%;
+    margin-top: -5%;
+}
+
+#page2 h1 {
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+#page2 p{
+    text-align:left;
+    margin-left:50% ;
+    margin-right: 5%;
+    margin-top: -5%;
+}
+.my{
+    
 }
